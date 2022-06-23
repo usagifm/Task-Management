@@ -16,6 +16,10 @@
 		DC5F144F2860EA0800857EB2 /* Task_Management_BetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F144E2860EA0800857EB2 /* Task_Management_BetaTests.swift */; };
 		DC5F14592860EA0800857EB2 /* Task_Management_BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F14582860EA0800857EB2 /* Task_Management_BetaUITests.swift */; };
 		DC5F145B2860EA0800857EB2 /* Task_Management_BetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F145A2860EA0800857EB2 /* Task_Management_BetaUITestsLaunchTests.swift */; };
+		DC5F146A2860ECEA00857EB2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F14692860ECEA00857EB2 /* Home.swift */; };
+		DC5F146D2860F0BD00857EB2 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F146C2860F0BC00857EB2 /* TaskViewModel.swift */; };
+		DC5F146F2860F70100857EB2 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F146E2860F70100857EB2 /* AddNewTask.swift */; };
+		DCEF4E662862F2D5002E4853 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF4E652862F2D5002E4853 /* DynamicFilteredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		DC5F14542860EA0800857EB2 /* Task Management BetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task Management BetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5F14582860EA0800857EB2 /* Task_Management_BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Management_BetaUITests.swift; sourceTree = "<group>"; };
 		DC5F145A2860EA0800857EB2 /* Task_Management_BetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Management_BetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC5F14692860ECEA00857EB2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DC5F146C2860F0BC00857EB2 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		DC5F146E2860F70100857EB2 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		DCEF4E652862F2D5002E4853 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 		DC5F14372860EA0500857EB2 /* Task Management Beta */ = {
 			isa = PBXGroup;
 			children = (
+				DC5F14682860EC4200857EB2 /* ViewModel */,
+				DC5F14672860EC2500857EB2 /* View */,
 				DC5F14382860EA0500857EB2 /* Task_Management_BetaApp.swift */,
 				DC5F143A2860EA0500857EB2 /* ContentView.swift */,
 				DC5F143C2860EA0800857EB2 /* Assets.xcassets */,
@@ -131,6 +141,24 @@
 				DC5F145A2860EA0800857EB2 /* Task_Management_BetaUITestsLaunchTests.swift */,
 			);
 			path = "Task Management BetaUITests";
+			sourceTree = "<group>";
+		};
+		DC5F14672860EC2500857EB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F14692860ECEA00857EB2 /* Home.swift */,
+				DC5F146E2860F70100857EB2 /* AddNewTask.swift */,
+				DCEF4E652862F2D5002E4853 /* DynamicFilteredView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC5F14682860EC4200857EB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F146C2860F0BC00857EB2 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5F14422860EA0800857EB2 /* Persistence.swift in Sources */,
+				DC5F146D2860F0BD00857EB2 /* TaskViewModel.swift in Sources */,
 				DC5F14452860EA0800857EB2 /* Task_Management_Beta.xcdatamodeld in Sources */,
+				DCEF4E662862F2D5002E4853 /* DynamicFilteredView.swift in Sources */,
+				DC5F146A2860ECEA00857EB2 /* Home.swift in Sources */,
+				DC5F146F2860F70100857EB2 /* AddNewTask.swift in Sources */,
 				DC5F143B2860EA0500857EB2 /* ContentView.swift in Sources */,
 				DC5F14392860EA0500857EB2 /* Task_Management_BetaApp.swift in Sources */,
 			);
